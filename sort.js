@@ -6,13 +6,8 @@ for (let i = 0; i < arr.length; i++) {
         if(arr[l]< arr[j]){
            [ arr[j] , arr[l] ]= [arr[l] , arr[j]]
            l--
-        }/*else{
-            [arr[i] , arr[j]] = [arr[j] , arr[i]]
-       }*/
+        }
     }
     
     
 }
-// [a,b] = [b,a]
-
-// const [a,b] 
